@@ -4,16 +4,113 @@
     <meta charset="UTF-8">
     <meta name="author" content="Anastasiia">
     <title>Магазин мобільних телефонів</title>
+    <style>
+        body {
+            background-color: #f0f8ff; 
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 1px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .highlight {
+            font-style: italic;
+            font-weight: bold;
+        }
+        .content {
+            margin: 20px;
+            text-align: justify;
+        }
+        img {
+            margin: 10px;
+        }
+        .large-image {
+            width: 400px;
+            height: 800px;
+        }
+        .iframe-container {
+            width: 40%;
+            height: 315px;
+            margin: 20px auto;
+            border: 2px solid #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>Магазин мобільних телефонів</h1>
+    <h1><font face="Arial" size="6" color="black">Магазин мобільних телефонів</font></h1>
     <nav>
         <ul>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="about.html">Про нас</a></li>
-            <li><a href="brands.html">Контакти</a></li>
+            <li><a href="catalog.html" style="color: #ff6600;"><font face="Arial" size="4" color="white">Каталог</font></a></li>
+            <li><a href="about.html" style="color: #ff6600;"><font face="Arial" size="4" color="white">Про нас</font></a></li>
+            <li><a href="brands.html" style="color: #ff6600;"><font face="Arial" size="4" color="white">Про бренди</font></a></li>
         </ul>
     </nav>
-    <p>Ласкаво просимо до нашого магазину мобільних телефонів! У нас ви знайдете широкий вибір смартфонів та аксесуарів.</p>
+    
+    <div class="content">
+        <p><font face="Georgia" size="4" color="black">Ласкаво просимо до нашого магазину мобільних телефонів! У нас ви знайдете широкий вибір смартфонів та аксесуарів. Ми пропонуємо телефони найкращих брендів, а також аксесуари для них. Наші консультанти завжди готові допомогти вам з вибором, а також відповісти на будь-які питання.</font></p>
+        
+        <p class="highlight"><font face="Arial" size="4" color="black"><em><strong>У нашому каталозі ви знайдете:</strong></em></font></p>
+        <ul type="disc">
+            <li><font face="Arial" size="4" color="black">Смартфони різних брендів</font></li>
+            <li><font face="Arial" size="4" color="black">Аксесуари до телефонів</font></li>
+            <li><font face="Arial" size="4" color="black">Планшети та інші електронні пристрої</font></li>
+        </ul>
+        
+        <p><font face="Georgia" size="4" color="black">Щоб дізнатися більше про наші пропозиції, перейдіть до сторінки <a href="catalog.html" style="color: #ff6600;"><font face="Arial" size="4" color="#ff6600">Каталогу</font></a>.</font></p>
+        
+        <h2><font face="Arial" size="5" color="black">Популярні бренди</font></h2>
+        <ol type="1">
+            <li><font face="Arial" size="4" color="black">Apple</font></li>
+            <li><font face="Arial" size="4" color="black">Samsung</font></li>
+            <li><font face="Arial" size="4" color="black">Xiaomi</font></li>
+            <li><font face="Arial" size="4" color="black">Huawei</font></li>
+        </ol>
+
+        <h3><font face="Arial" size="4" color="black">Наші контакти:</font></h3>
+        <p><font face="Georgia" size="4" color="black">Телефон: +380 000-000-00</font></p>
+        <p><font face="Georgia" size="4" color="black">Електронна пошта: <a href="mailto:info@mobilestore.com" style="color: #ff6600;"><font face="Arial" size="4" color="#ff6600">info@mobilestore.com</font></a></font></p>
+
+        <h2><font face="Arial" size="5" color="black">Наші смартфони</font></h2>
+        <dl>
+            <dt><font face="Arial" size="4" color="black">iPhone 13</font></dt>
+            <dd><font face="Georgia" size="4" color="black">Один з найпопулярніших смартфонів на ринку, відмінна камера та продуктивність.</font></dd>
+            <dt><font face="Arial" size="4" color="black">Samsung Galaxy S21</font></dt>
+            <dd><font face="Georgia" size="4" color="black">Потужний смартфон з відмінною камерою та екраном.</font></dd>
+        </dl>
+
+        <h2><font face="Arial" size="5" color="black">Наші продукти</font></h2>
+        <p><font face="Georgia" size="4" color="black">Ось кілька зображень наших смартфонів. Клікайте на картинку, щоб побачити її в повному розмірі.</font></p>
+
+        <a href="Photo/iPhone 13.jpg" target="_blank">
+            <img src="Photo/iPhone 13.jpg" alt="iPhone 13" width="200" height="210" />
+        </a>
+        <a href="Photo/Samsung Galaxy S21.webp" target="_blank">
+            <img src="Photo/Samsung Galaxy S21.webp" alt="Samsung Galaxy S21" width="180" height="210" />
+        </a>
+
+<div class="iframe-container">
+    <iframe src="https://www.youtube.com/embed/iernT1NRHLA" width="100%" height="100%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+    </div>
 </body>
 </html>
