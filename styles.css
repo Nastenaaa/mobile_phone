@@ -1,0 +1,176 @@
+/*основні*/
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/*заголовки*/
+h1, h2, h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ff6600;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    font-size: 20px;
+    color: #555;
+}
+
+/*навігація*/
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/*основний контент */
+.content {
+    margin: 20px;
+    text-align: justify;
+}
+
+/*списки */
+ul, ol, dl {
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+dl {
+    font-style: italic;
+}
+
+/*таблиці*/
+.complex-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.complex-table th, .complex-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.complex-table th {
+    background-color: #333;
+    color: white;
+}
+
+.complex-table td {
+    background-color: #f9f9f9;
+}
+
+/*стилі для логотипів таблиці*/
+td img {
+    width: 93px;
+    height: 94px;
+}
+
+.samsung-img {
+    width: 153px;
+    height: 94px;
+}
+
+/*зображення*/
+img {
+    margin: 10px;
+}
+
+.image-container {
+    display: inline-block;
+    margin-right: 140px;
+    text-align: center;
+}
+
+.image-container img {
+    margin-bottom: 10px;
+}
+
+.image-container p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/* IFRAME */
+.iframe-container {
+    width: 40%;
+    height: 315px;
+    margin: 20px auto;
+    border: 2px solid #333;
+}
+
+/*дадаткові*/
+.highlight {
+    font-style: italic;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+#highlighted-text {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/*внутрішні для абзаців*/
+p {
+    font-family: Georgia, serif !important;
+    font-size: 18px !important;
+    color: black !important;
+}
+
+/*посилання*/
+td a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: #ffcc00;
+}

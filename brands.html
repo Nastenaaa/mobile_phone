@@ -4,88 +4,28 @@
     <meta charset="UTF-8">
     <meta name="author" content="Anastasiia">
     <title>Популярні бренди</title>
-    <style>
-        body {
-            background-color: #f0f8ff; 
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            text-align: center;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        nav a:hover {
-            color: #ffcc00;
-        }
-        .content {
-            margin: 20px;
-            text-align: justify;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            padding: 15px;
-            text-align: center;
-            border: 1px solid black;
-        }
-        th {
-            background-color: #333;
-            color: white;
-        }
-        td img {
-            width: 93px; 
-            height: 94px; 
-        }
-        td a {
-            color: #ff6600;
-            text-decoration: none;
-        }
-        td a:hover {
-            color: #ffcc00;
-        }
-        .table-title {
-            text-align: center;
-            font-size: 24px;
-            margin-top: 30px;
-        }
-
-        
-        .samsung-img {
-            width: 153px; 
-            height: 94px; 
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: #f0f8ff;">
-    <h1><font face="Arial" size="6" color="black">Популярні бренди</font></h1>
+<body>
+    
+    <h1>Популярні бренди</h1>
     <nav>
-        <a href="index.html"><font face="Arial" size="4" color="white">Головна</font></a>
+        <a href="index.html">Головна</a>
     </nav>
 
     <div class="content">
-        <p><font face="Georgia" size="4" color="black">Серед найпопулярніших брендів можна виділити такі марки як <strong>Apple</strong>, <strong>Samsung</strong>, <strong>Xiaomi</strong>, <strong>Huawei</strong> та інші. Ці бренди зарекомендували себе завдяки своїм інноваційним рішенням, високій якості продукції та широкому асортименту смартфонів.</font></p>
+        <p>Серед найпопулярніших брендів можна виділити такі марки як <strong>Apple</strong>, <strong>Samsung</strong>, <strong>Xiaomi</strong>, <strong>Huawei</strong> та інші. Ці бренди зарекомендували себе завдяки своїм інноваційним рішенням, високій якості продукції та широкому асортименту смартфонів.</p>
 
-        <h2><font face="Arial" size="5" color="black">Огляд брендів</font></h2>
+        <h2>Огляд брендів</h2>
         <ul>
-            <li><font face="Arial" size="4" color="black"><strong>Apple</strong> - Один з лідерів на ринку смартфонів, відомий своєю інноваційністю та високою якістю.</font></li>
-            <li><font face="Arial" size="4" color="black"><strong>Samsung</strong> - Найбільший виробник смартфонів Android з високим рівнем інженерії та функціональності.</font></li>
-            <li><font face="Arial" size="4" color="black"><strong>Xiaomi</strong> - Відомий своїми доступними цінами і високою якістю продукції.</font></li>
-            <li><font face="Arial" size="4" color="black"><strong>Huawei</strong> - Китайський гігант, що пропонує смартфони з потужними камерами та високою продуктивністю.</font></li>
+            <li><strong>Apple</strong> - Один з лідерів на ринку смартфонів, відомий своєю інноваційністю та високою якістю.</li>
+            <li><strong>Samsung</strong> - Найбільший виробник смартфонів Android з високим рівнем інженерії та функціональності.</li>
+            <li><strong>Xiaomi</strong> - Відомий своїми доступними цінами і високою якістю продукції.</li>
+            <li><strong>Huawei</strong> - Китайський гігант, що пропонує смартфони з потужними камерами та високою продуктивністю.</li>
         </ul>
 
-        
         <h3 class="table-title">Порівняння популярних брендів</h3>
-        <table cellspacing="10" cellpadding="10">
+        <table class="complex-table">
             <thead>
                 <tr>
                     <th>Бренд</th>
@@ -97,31 +37,30 @@
             <tbody>
                 <tr>
                     <td>Apple</td>
-                    <td><a href="Photo/logo_iphone.png" target="_blank"><img src="Photo/logo_iphone.png" alt="Apple" width="100" height="100" /></a></td>
+                    <td><a href="Photo/logo_iphone.png" target="_blank"><img src="Photo/logo_iphone.png" alt="Apple" width="100" height="100"></a></td>
                     <td><a href="https://www.apple.com" target="_blank">Перейти на сайт</a></td>
                     <td>Apple - компанія, відома своїми інноваційними продуктами, такими як iPhone, iPad, MacBook.</td>
                 </tr>
                 <tr>
                     <td>Samsung</td>
-                    <td><a href="Photo/logo_Samsung.png" target="_blank"><img class="samsung-img" src="Photo/logo_Samsung.png" alt="Samsung" /></a></td>
+                    <td><a href="Photo/logo_Samsung.png" target="_blank"><img class="samsung-img" src="Photo/logo_Samsung.png" alt="Samsung"></a></td>
                     <td><a href="https://www.samsung.com" target="_blank">Перейти на сайт</a></td>
                     <td>Samsung - корейська компанія, що спеціалізується на смартфонах, побутовій техніці та електроніці.</td>
                 </tr>
                 <tr>
                     <td>Xiaomi</td>
-                    <td><a href="Photo/logo_xiaomi.png" target="_blank"><img src="Photo/logo_xiaomi.png" alt="Xiaomi" width="100" height="100" /></a></td>
+                    <td><a href="Photo/logo_xiaomi.png" target="_blank"><img src="Photo/logo_xiaomi.png" alt="Xiaomi" width="100" height="100"></a></td>
                     <td><a href="https://www.mi.com" target="_blank">Перейти на сайт</a></td>
                     <td>Xiaomi - китайська компанія, відома смартфонами за доступною ціною та високою якістю.</td>
                 </tr>
                 <tr>
                     <td>Huawei</td>
-                    <td><a href="Photo/logo_huawei.png" target="_blank"><img src="Photo/logo_huawei.png" alt="Huawei" width="100" height="100" /></a></td>
+                    <td><a href="Photo/logo_huawei.png" target="_blank"><img src="Photo/logo_huawei.png" alt="Huawei" width="100" height="100"></a></td>
                     <td><a href="https://www.huawei.com" target="_blank">Перейти на сайт</a></td>
                     <td>Huawei - китайський гігант, що пропонує смартфони з потужними камерами та високою продуктивністю.</td>
                 </tr>
             </tbody>
         </table>
-
     </div>
 </body>
 </html>
