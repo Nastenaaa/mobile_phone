@@ -174,3 +174,48 @@ td a {
 td a:hover {
     color: #ffcc00;
 }
+/*селектори */
+
+/*контекстний селектор*/
+
+.content a {
+    color: #006699;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content ul li {
+    color: #004080;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/*сусідній селектор*/
+
+h2 + p {
+    background-color: #fff3cd;
+    padding: 10px;
+    border-left: 4px solid #ff6600;
+    font-style: italic;
+}
+
+b + i {
+    color: red;
+}
+/*дочірній селектор */
+
+nav > ul > li {
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.content > h2 {
+    color: #006699;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+
+
