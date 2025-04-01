@@ -153,10 +153,7 @@ img {
     color: #ff6600;
 }
 
-#highlighted-text {
-    background-color: yellow;
-    font-weight: bold;
-}
+
 
 /*внутрішні для абзаців*/
 p {
@@ -174,7 +171,7 @@ td a {
 td a:hover {
     color: #ffcc00;
 }
-/*селектори */
+
 
 /*контекстний селектор*/
 
@@ -217,5 +214,73 @@ nav > ul > li {
     text-transform: uppercase;
 }
 
+/* стандартний блок */
+.brand-box.standard {
+    width: 280px;
+    padding: 15px;
+    margin: 15px auto;
+    border: 2px dashed #999;
+    position: relative;
+    background-color: #fffbea;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* плаваючий блок */
+.brand-box.floating {
+    width: 280px;
+    padding: 15px;
+    margin: 15px;
+    border: 2px dashed #999;
+    float: left;
+    position: relative;
+    background-color: #e6f7ff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
 
 
+/*рядковий елемент */
+span.inline-highlight {
+    color: crimson;
+    background-color: #ffe6e6;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/*псевдокласи для посилань */
+a:link {
+    color: #1a73e8;
+}
+
+a:visited {
+    color: #8e24aa;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+/*first-child*/
+.content ul li:first-child {
+    background-color: #bdf0a4;
+    padding: 5px;
+    border-left: 5px solid rgb(175, 192, 175);
+}
+
+/* псевдоелементи */
+.brand-box::before {
+    content: "★ ";
+    color: orange;
+    font-weight: bold;
+}
+
+.brand-box::after {
+    content: " ✓";
+    color: green;
+    font-weight: bold;
+}
