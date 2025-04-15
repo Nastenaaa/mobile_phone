@@ -12,7 +12,7 @@ function dialogWithUser() {
 dialogWithUser();
 
 // 3 Інформація про розробника
-function showDeveloperInfo(surname, name, position = "Web Developer") {
+function showDeveloperInfo(surname, name, position) {
     alert(`Розробник сторінки: ${surname} ${name}, посада: ${position}`);
 }
 showDeveloperInfo("Дригант", "Анастасія");
@@ -36,9 +36,9 @@ setTimeout(() => {
 }, 30000);
 
 // 6 Перенаправлення через 10 секунд
-setTimeout(() => {
-    location.href = "index.html";
-}, 10000);
+//setTimeout(() => {
+//    location.href = "index.html";
+//}, 10000);
 
 // 7 getElementById
 const highlight = document.getElementById("highlighted-text");
@@ -56,7 +56,7 @@ if (highlight.firstChild) {
     console.log("nodeValue/data:", highlight.firstChild.nodeValue || highlight.firstChild.data);
 }
 
-// 10 Вставка, створення, видалення вузлів
+// 10 Вставка, створення, видалення 
 const newParagraph = document.createElement("p");
 const textNode = document.createTextNode("Ми постійно оновлюємо наш асортимент, щоб задовольнити потреби кожного клієнта.");
 newParagraph.appendChild(textNode);
